@@ -16,7 +16,6 @@ Please consult the [official documentation](https://docs.docker.com/engine/insta
 > :bulb: **Tip:** _I've had some troubles setting up Docker in the past, if Docker engine keeps shutting down upon booting up uninstalling and reinstalling has fixed the issue for me._
 
 Docker on Windows
------------------
 If you work on the Windows operating system, as I do, you'll need to download a Linux Subsystem for Windows (WSL) to use Docker. Install WSL through the command line using wsl --install.
 
 ## Setup Pyspark Environment with Docker
@@ -29,7 +28,6 @@ To access the notebook in this container click on the URL that should now be in 
 > :bulb: **Tip:** _The URL will be in the container logs which can be accessed with ```docker logs pyspark```_
 
 Hello World
------------
 PySpark should now be configured and ready to use! Try running PySpark code in the Jupyter lab to confirm the installation.
 
 ## Using Pyspark with VS Code
@@ -41,7 +39,9 @@ Install VS Code Extensions
 - Jupyter
 
 Create a Jupyter notebook in your repository and execute all cells. VS Code will initiate a prompt to select a kernel.
+
 Select "Existing Jupyter Server" and input the URL provided earlier.
+
 Subsequently, VS Code will request a password. Use the token attached to the URL as the password.
 
 
